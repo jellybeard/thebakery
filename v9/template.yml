@@ -11,10 +11,10 @@ Parameters:
     Type: AWS::Route53::HostedZone::Id
   DomainName:
     Type: String
-    Default: foundry........
+    Default: foundry.theoutskirts.org
   Email:
     Type: String
-    Default: your@email.com
+    Default: marvelauthority@gmail.com
   DownloadURL:
     Type: String
     Default: nodejs-url
@@ -22,7 +22,7 @@ Parameters:
     Type: AWS::EC2::VPC::Id
   AdminIPs:
     Type: String
-    Default: ""
+    Default: "76.121.187.254"
 Resources:
   TemporaryS3:
     DeletionPolicy: Retain
